@@ -5,6 +5,8 @@ Rest API to get details from MusicBrainz API about artist details based on Artis
 
 This API Consumes details from three different third party RESTful webservices to provide information about Artist details like Description of the Artist, List of Albums and Cover Art details corresponding to each Album.
 
+First pass the MBID to MusicBrainz Rest Service to get the relations and release groups, relations contains a link to wikipedia, then you can use that wikipedia artist name to get the description from Wikipedia Rest Service. Release groups contains id, which can be passed to get the cover art details from the Cover Art Rest Service.
+
 ###Third Party Rest APIs used:
 
 - http://musicbrainz.org/doc/Development/XML_Web_Service/Version_2
