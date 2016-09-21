@@ -13,13 +13,13 @@ This API Consumes details from three third party REST API's to provide informati
 
 ###Technologies and Tools Used:
 
-[Java 8] [java] - Used Lambda Expressions and Streaming API to work with Collections like List, also used Functional programming concepts like map, collect, filter etc..
-[Maven] [maven] - Used Maven for building Spring Rest API Application and to maintain the dependencies jars in Central repository.
-[Spring Boot] [springboot] - Spring boot to easily run the Spring based applications locally and using embedded web container.
-[Spring RestTemplate] [resttemplate] - Used this to consume external restful web services easily.
-[Spring MVC] [springmvc] - Used Spring MVC Controller for developing restful web services.
-[Spring Tool Suite (STS) IDE] [sts] - Used STS as IDE for developing Spring based applications.
-[Gson Library] [gson] - Gson to convert Json text to Java POJO classes easily.
+* [Java 8] [java] - Used Lambda Expressions and Streaming API to work with Collections like List, also used Functional programming concepts like map, collect, filter etc..
+* [Maven] [maven] - Used Maven for building Spring Rest API Application and to maintain the dependencies jars in Central repository.
+* [Spring Boot] [springboot] - Spring boot to easily run the Spring based applications locally and using embedded web container.
+* [Spring RestTemplate] [resttemplate] - Used this to consume external restful web services easily.
+* [Spring MVC] [springmvc] - Used Spring MVC Controller for developing restful web services.
+* [Spring Tool Suite (STS) IDE] [sts] - Used STS as IDE for developing Spring based applications.
+* [Gson Library] [gson] - Gson to convert Json text to Java POJO classes easily.
 
 ###How to Build the code:
 
