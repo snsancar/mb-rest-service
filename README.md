@@ -5,13 +5,13 @@ Solution:
 
 This API Consumes details from three third party REST API's to provide information about Artist details like Description of the Artist, List of Albums and Cover Art details corresponding to each Album.
 
-Third Party Rest APIs used:
+###Third Party Rest APIs used:
 
 - http://musicbrainz.org/doc/Development/XML_Web_Service/Version_2
 - https://www.mediawiki.org/wiki/API:Main_page
 - https://wiki.musicbrainz.org/Cover_Art_Archive/API
 
-Technologies and Tools Used:
+###Technologies and Tools Used:
 
 * [Java 8]
 - Maven
@@ -20,7 +20,7 @@ Technologies and Tools Used:
 - Spring MVC
 - Spring Tool Suite (STS) IDE
 
-How to Build the code:
+###How to Build the code:
 
 ```sh
 cd mb-rest-service
@@ -29,7 +29,7 @@ mvn clean install
 
 It creates a fat jar with all dependencies.
 
-How to Deploy the code:
+###How to Deploy the code:
 
 Since its a Spring Boot project, by default it comes with embedded Tomcat server, so you can directly run the jar using the below command.
 
