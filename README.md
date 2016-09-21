@@ -66,4 +66,5 @@ Then you can access the service using the below url.
 [maven]: <https://maven.apache.org/>
 [springmvc]: <http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html>
 [resttemplate]: <http://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html>
+[sts]: <https://spring.io/tools>
 
