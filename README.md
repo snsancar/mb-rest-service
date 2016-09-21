@@ -29,6 +29,13 @@ mvn clean install
 
 It creates a fat jar with all dependencies.
 
+###How to run the Application from STS or Eclipse IDE.
+
+- Just clone the code to your desktop using Git Clone command.
+- Import the existing maven project to STS tool using Import option.
+- Open the Application.java file
+- Right Click and Run as Spring Boot Application, thats all, once the tomcat server is started, you can access the application using * [http://localhost:8080/mbapp/{mbid}] [appurl]
+
 ###How to Deploy the code:
 
 Since its a Spring Boot project, by default it comes with embedded Tomcat server, so you can directly run the jar using the below command.
@@ -40,3 +47,6 @@ java -jar mb-rest-service.jar
 Then you can access the service using the below url.
 
 http://localhost:8080/mbapp/{mbid}
+
+
+[appurl]: <http://localhost:8080/mbapp/{mbid}>
