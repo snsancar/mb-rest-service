@@ -68,3 +68,9 @@ Then you can access the service using the below url.
 [resttemplate]: <http://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html>
 [sts]: <https://spring.io/tools>
 
+###Sample MB IDs used for testing:
+
+```sh
+f27ec8db-af05-4f36-916e-3d57f91ecf5e
+```
+
