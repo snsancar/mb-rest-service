@@ -19,3 +19,24 @@ Technologies and Tools Used:
 - Spring RestTemplate
 - Spring MVC
 - Spring Tool Suite (STS) IDE
+
+How to Build the code:
+
+```sh
+cd mb-rest-service
+mvn clean install
+```
+
+It creates a fat jar with all dependencies.
+
+How to Deploy the code:
+
+Since its a Spring Boot project, by default it comes with embedded Tomcat server, so you can directly run the jar using the below command.
+
+```sh
+java -jar mb-rest-service.jar
+```
+
+Then you can access the service using the below url.
+
+http://localhost:8080/mbapp/{mbid}
