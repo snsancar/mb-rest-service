@@ -3,7 +3,7 @@ Rest API to get details from MusicBrainz API about artist details based on Artis
 
 ###Solution:
 
-This API Consumes details from three third party REST API's to provide information about Artist details like Description of the Artist, List of Albums and Cover Art details corresponding to each Album.
+This API Consumes details from three different third party RESTful webservices to provide information about Artist details like Description of the Artist, List of Albums and Cover Art details corresponding to each Album.
 
 ###Third Party Rest APIs used:
 
