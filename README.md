@@ -74,7 +74,5 @@ Then you can access the service using the below url.
 
 ```sh
 f27ec8db-af05-4f36-916e-3d57f91ecf5e
-53b106e7-0cc6-42cc-ac95-ed8d30a3a98e
-86437518-fca1-4117-b698-b371b72d76a5
 ```
 
